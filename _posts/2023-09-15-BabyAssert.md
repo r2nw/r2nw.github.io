@@ -20,11 +20,12 @@ Trong PHP, có rất nhiều cách để thay thế lệnh điều khiển If El
 
 ## ****Web Analysis:****
 
+
 - Tại `/index.php` trang web:
 
 Có 3 Nút home, about và Secret mình xem thử từng cái.
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled.png)
+![Untitled](/assets/writeup/cookie/0.png)
 
 Ta thấy ở trang web có 1 parameter **`?page=`**  ngay lúc này mình đã test về lỗi LFI ( ../ , ….//)  tuy nhiên nó đã không thực thi.
 
@@ -40,13 +41,13 @@ Lúc này mình thấy có hàm `assert` có vẻ kì lạ…
 
 - Tại `ABOUT`trang web:
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%201.png)
+![Untitled](/assets/writeup/cookie/1.png)
 
 Không có gì đặc biệt.
 
 - Tại `SECRET` trang web:
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%202.png)
+![Untitled](/assets/writeup/cookie/2.png)
 
 Ta thấy `file flag` được đặt tên + thêm ký tự random. Vậy cho dù mình có thực thi được ../ lỗi LFI thì cũng không thể biết được tên cụ thể của file flag mà xem được. Nên phải RCE hệ thống.
 
@@ -56,7 +57,7 @@ Ta thấy `file flag` được đặt tên + thêm ký tự random. Vậy cho d�
 
 Ở lúc này thì mình chưa biết về hàm assert hoạt động như thế nào và tìm hiểu nó.
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%203.png)
+![Untitled](/assets/writeup/cookie/3.png)
 
 ![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%204.png)
 
@@ -72,7 +73,7 @@ Tuy nhiên, **`assert()`**có thể trở thành rủi ro bảo mật khi sử d
 
 **PAYLOAD AT HACKTRICK : [CLICK](https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-via-phps-assert)**
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%205.png)
+![Untitled](/assets/writeup/cookie/5.png)
 
 ở đây để RCE thì ta inject vào 1 chuổi và +PHP 
 
@@ -85,7 +86,7 @@ PAYLOAD:
 ' and die(show_source('/etc/passwd')) or ‘
 ```
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%206.png)
+![Untitled](/assets/writeup/cookie/6.png)
 
 Nó đã thực thi được payload của chúng ta tuy nhiên không biết file flag tên gì nên mình phải RCE.
 
@@ -94,15 +95,15 @@ PAYLOAD:
 ' and die(system("whoami")) or '
 ```
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%207.png)
+![Untitled](/assets/writeup/cookie/7.png)
 
 THÀNH CÔNG RỒI 
 
 việc còn lại là xem file FLag
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%208.png)
+![Untitled](/assets/writeup/cookie/8.png)
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%209.png)
+![Untitled](/assets/writeup/cookie/9.png)
 
 DONE =)))
 
