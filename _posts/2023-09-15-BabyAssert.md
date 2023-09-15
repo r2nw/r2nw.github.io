@@ -8,17 +8,17 @@ tags: [web, writeup]     # TAG names should always be lowercase
 
 Địa chỉ : **[Baby Assert](https://battle.cookiearena.org/challenges/web/baby-assert)**
 
-## **Challenge Details**
+## Challenge Detail
 
 Trong PHP, có rất nhiều cách để thay thế lệnh điều khiển If Else. Tuy nhiên, không phải lập trình viên nào cũng lường trước được những hậu quả nghiêm trọng khi sử dụng và thiết lập những tham số an toàn trên môi trường Production.
 
-## **Tags**
+## Tags
 
 - php
 - Assert
 - Code Injection
 
-## ****Web Analysis:****
+## Web Analysis:
 
 
 - Tại `/index.php` trang web:
@@ -69,7 +69,7 @@ Vậy thì giải thích sơ
 
 Tuy nhiên, **`assert()`**có thể trở thành rủi ro bảo mật khi sử dụng không đúng cách, đặc biệt khi dữ liệu do người dùng kiểm soát được truyền trực tiếp vào chức **`assert()`**năng mà không được xác thực hoặc khử trùng thích hợp.
 
-## ****Exploiting Assert()****
+## Exploiting Assert()
 
 **PAYLOAD AT HACKTRICK : [CLICK](https://book.hacktricks.xyz/pentesting-web/file-inclusion#lfi-via-phps-assert)**
 
@@ -107,4 +107,4 @@ việc còn lại là xem file FLag
 
 DONE =)))
 
-`***Written by Ren***`
+`Written by Ren`
