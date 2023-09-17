@@ -23,7 +23,7 @@ Trong PHP, có rất nhiều cách để thay thế lệnh điều khiển If El
 
 Có 3 Nút home, about và Secret mình xem thử từng cái.
 
-![Untitled](/assets/writeup/cookie/BabyAssert/BabyAssert/BabyAssert/0.png)
+![Untitled](/assets/writeup/cookie/BabyAssert/0.png)
 
 Ta thấy ở trang web có 1 parameter **`?page=`**  ngay lúc này mình đã test về lỗi LFI ( ../ , ….//)  tuy nhiên nó đã không thực thi.
 
