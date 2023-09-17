@@ -4,8 +4,6 @@ date: 2023-09-15 3:55:00 +0700
 categories: [Write-Up, Cookie Hân Hoan]
 tags: [Web, Write-Up]     # TAG names should always be lowercase
 ---
-# CTF Write-Up: Baby Assert
-
 Địa chỉ : **[Baby Assert](https://battle.cookiearena.org/challenges/web/baby-assert)**
 
 ## Challenge Detail
