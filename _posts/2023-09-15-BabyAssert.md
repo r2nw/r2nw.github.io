@@ -1,7 +1,7 @@
 ---
 title: Write-Up Baby Assert
 date: 2023-09-15 3:55:00 +0700
-categories: [CTF, Cookie Hân Hoan, Write-Up, Web]
+categories: [CTF, Cookie Hân Hoan, Write-Up]
 tags: [web, write-up, ctf]     # TAG names should always be lowercase
 ---
 Địa chỉ : **[Baby Assert](https://battle.cookiearena.org/challenges/web/baby-assert)**
