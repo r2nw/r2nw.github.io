@@ -267,4 +267,6 @@ Giờ nó đã ghi đè lên session guest giờ session guest đã thay đỗi 
 
 ![Untitled](/assets/writeup/cookie/NodeRedisAPI/Untitled%2021.png)
 
+
+
 `***Written by Ren***`
