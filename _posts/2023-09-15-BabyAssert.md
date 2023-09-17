@@ -59,7 +59,7 @@ Ta thấy `file flag` được đặt tên + thêm ký tự random. Vậy cho d�
 
 ![Untitled](/assets/writeup/cookie/BabyAssert/3.png)
 
-![Untitled](CTF%20Write-Up%20Baby%20Assert%205f9fad4ba6d34667994d08ce56b09e97/Untitled%204.png)
+![Untitled](/assets/writeup/cookie/BabyAssert/4.png)
 
 chi tiết ở : [how assertions can get you hacked](https://infosecwriteups.com/how-assertions-can-get-you-hacked-da22c84fb8f6)
 

@@ -1,11 +1,9 @@
 ---
 title: Write-Up Node Redis API
 date: 2023-09-18 12:34:01 +0700
-categories: [Write-Up, Cookie Hân Hoan]
-tags: [Web, Write-Up]     # TAG names should always be lowercase
+categories: [CTF, Cookie Hân Hoan, Write-Up, Web]
+tags: [Web, Write-Up, CTF]     # TAG names should always be lowercase
 ---
-# CTF Write-Up: Node Redis API Challenge
-
 ## **Challenge Details**
 
 - Challenge: **[Node Redis API](https://battle.cookiearena.org/challenges/web/node-redis-api)**
