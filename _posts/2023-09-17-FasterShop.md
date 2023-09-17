@@ -25,12 +25,12 @@ Tại `/` trang web:
 
 Là 1 trang login mà bài đã cung cấp username và passwd 
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled.png)
 
 Tiến hành login
 Xuất hiện 1 trang với tính năng mua và bán lại.
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%201.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%201.png)
 
 Ta để ý thấy `Flag` được bán với giá là `21$` tuy nhiên trang web chỉ cung cấp cho chúng ta `20$`.
 
@@ -44,33 +44,33 @@ Kiểm chứng ý tưởng
 
 Mình đã mua và bán lại lặp lại nhiều lần.
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%202.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%202.png)
 
 Khi mình spam mua thì để ý mình chỉ mua 15$ mà trang web đã báo lỗi. Vậy đã chứng minh trang web nó đã hiểu nhầm số lượt click.
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%203.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%203.png)
 
 Giờ mình tiến hành spam bán lại
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%204.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%204.png)
 
 Tèn ten 20$ mua được 5 món
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%205.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%205.png)
 
 giờ bán lại là được 25$ mà đủ tiền mua FLAG rồi
 
 *challenge này nay nó bị lag cứ bị lỗi này mọi người chứ refesh lại web rồi ấn tiếp tục nha*
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%206.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%206.png)
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%207.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%207.png)
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%208.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%208.png)
 
 mua FLAG bán lại lần nữa nha
 
-![Untitled](CTF%20Write-Up%20Faster%20Shop%207a23fb151fc94fa1a6a12e8b62b73bdb/Untitled%209.png)
+![Untitled](/assets/writeup/cookie/FasterShop/Untitled%209.png)
 
 DONEEE
 
