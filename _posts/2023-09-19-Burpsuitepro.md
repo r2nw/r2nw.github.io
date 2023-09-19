@@ -221,4 +221,5 @@ Bạn nào gặp lỗi trong quá trình thì comment ở đây.
 
 ![Untitled](/assets/burpsuite/Untitled%2029.png)
 
+Nhớ BACKUP LẠI FILE BURPLOADER... chứ không bên portswinger report không biết bài này trụ được bao lâu :))
 Cảm ơn các bạn đã xem.
