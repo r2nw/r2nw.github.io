@@ -16,7 +16,7 @@ tags: [tools, burpsuite pro]     # TAG names should always be lowercase
     
 - **STEP 2:**
     
-    Download: [Burploader](https://drive.google.com/file/d/1iDnqjJsO9X9utXmIHMtI52KtgaiHNpV7/view)
+    Download: [Burploader](https://drive.google.com/file/d/1e742o6T8nDPjzOBNbRommy0CzxCJUizN/view)
     
 - **STEP 3:**
     
@@ -49,7 +49,7 @@ tags: [tools, burpsuite pro]     # TAG names should always be lowercase
     
     Chọn 1 trong 2 để cài đặt.
     
-    Download: [Burploader](https://drive.google.com/file/d/1iDnqjJsO9X9utXmIHMtI52KtgaiHNpV7/view)
+    Download: [Burploader](https://drive.google.com/file/d/1e742o6T8nDPjzOBNbRommy0CzxCJUizN/view)
     
     ![Untitled](/assets/burpsuite/Untitled%203.png)
     
