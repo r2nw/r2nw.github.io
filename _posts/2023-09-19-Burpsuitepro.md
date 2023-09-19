@@ -3,7 +3,6 @@ title: Burp Suite Professional
 date: 2023-09-19 3:55:00 +0700
 categories: [Tools, BurpSuite]
 tags: [tools, burpsuite pro]     # TAG names should always be lowercase
-comments: 2
 ---
 ## LINUX & WINDOWS:
 
