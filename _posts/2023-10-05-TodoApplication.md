@@ -156,7 +156,7 @@ Bình thường mình test webshell sẽ kiểu như này.
 
 Nó không cho in ra, nên mình đã loại trừ nó nhanh chóng để test case khác.
 
-Nhưng mình đã sai, giờ cũng sửa nhé.
+Nhưng mình đã sai, giờ cùng sửa nhé.
 
 Vì trang web hình như không cho `echo` ra trực tiếp nên mình sẽ khai báo biến và test lại.
 
@@ -174,10 +174,11 @@ echo($a)
 ![Untitled](/assets/writeup/cookie/TodoApplication/Untitled%2017.png)
 
 Giờ thì thực thi webshell bình thường
+Do echo chỉ dòng đầu tiên nên thêm `ls /f*` or `ls /flag*` để show file flag nhé <3
 
 ```php
 <?php
-$a = exec('ls /');
+$a = exec('ls /f*');
 echo($a)
 ?>
 ```
