@@ -20,7 +20,7 @@ All your work will be saved to a checklist in the todo.txt file. Can a PHP Web S
 - PHP
 - YesWeHack
 
-## ****Web Analysis:****
+## **Web Analysis:**
 
 Tại `/` trang web:
 
@@ -36,7 +36,7 @@ Ta quan sát thấy và rằng xuất hiện 2 parameter `?add` và `&fileTodo`
 
 Hiểu nhanh là `?add=input_strings` và  `&fileTodo=_input_file` —> **+1 idea test bug path traversal**
 
-## ****Source Code Analysis:****
+## **Source Code Analysis:**
 
 Này không copy được code nên mình giải thích nhanh nhé:
 
@@ -50,7 +50,7 @@ Nhưng đoạn code không có thêm blacklist hay whitelist kiểm tra về ghi
 
 yaaa kiểm chứng nào.
 
-## ****Exploiting Code Injection, Path traversal:****
+## **Exploiting Code Injection, Path traversal:**
 
 Chứng minh có bug path traversal ( Là 1 hacker giỏi không bao giờ bỏ sót bugs, dù nó không có Flag trong đó nhưng vẫn check nhé).
 
